@@ -1,0 +1,200 @@
+*{margin: 0; padding: 0}
+ol, ul { list-style: none; }
+table { border-collapse: collapse; border-spacing: 0; }
+a { text-decoration:none; outline:none}
+a:hover { cursor:pointer; text-decoration:none; text-indent:0}
+body{
+    font-family: Arial, serif;
+    background: linear-gradient(-45deg, #ffffff, #ee2d2d);
+    background-size: 400% 400%;
+    height: 100vh;
+    padding: 0 20px;
+}
+
+.header{
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    color: #ffffff;
+    letter-spacing: 20px;
+}
+
+.home{
+    display: flex;
+    max-width: 900px;
+    margin: 100px auto 0;
+    justify-content: space-between;
+}
+
+.home__choice{
+    width: 300px;
+    height: 300px;
+    box-shadow: 0 0 15px 5px #000000;
+    background: transparent;
+    color: #ffffff;
+    border-radius: 10px;
+    line-height: 300px;
+    cursor: pointer;
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    font-size: 40px;
+    transition: 0.2s ease-in-out;
+}
+
+.home__choice:hover{
+    color: #f6ff00;
+    background: #ee2d2d;
+}
+
+.home__choice:active{
+    transform: translate(2px, 2px);
+}
+
+.back{
+    height: 30px;
+    width: 30px;
+    background: #ffffff;
+    text-align: center;
+    position: relative;
+    border-radius: 30px;
+    border: 2px solid #ffffff;
+    transition: 0.2s ease-in-out;
+}
+
+.back span{
+    position: absolute;
+    top: 50%;
+    left: 2px;
+    margin-top: -16px;
+    font-size: 25px;
+}
+
+.back:hover{
+    background: transparent;
+    cursor: pointer;
+}
+
+.speciality__back:hover span, .customize__back:hover span{
+    color: #ffffff;
+}
+
+.speciality__container{
+    padding: 20px;
+    margin: 50px auto 0;
+    display: flex;
+    justify-content: space-between;
+    background: transparent;
+    box-shadow: 0 0 5px 2px #000000;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    justify-items: center;
+}
+
+.cake{
+    width: 375px;
+    height: 125px;
+    background: #FFFDD0;
+    display: flex;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 25px;
+}
+
+.cake__image{
+    width: 150px;
+}
+
+.cake__container{
+    width: 225px;
+}
+
+.cake__name{
+    height: 95px;
+    font-size: 25px;
+    word-break: break-word;
+    font-family: "Lucida Calligraphy", cursive;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    text-align: center;
+}
+
+.cake__more{
+    height: 30px;
+    width: 100%;
+    border: none;
+    background: transparent;
+    color: #ee2d2d;
+    font-size: 20px;
+    font-family: "Lucida Console", serif;
+    transition: 0.2s ease-in-out;
+}
+
+.cake:hover{
+    cursor: pointer;
+}
+
+.cake:hover .cake__more{
+    background: #ee2d2d;
+    color: #f6ff00;
+    cursor: pointer;
+}
+
+.cakeDetail__container{
+    padding: 20px;
+    margin: 50px auto 0;
+    background: transparent;
+    box-shadow: 0 0 5px 2px #000000;
+    border-radius: 10px;
+}
+
+.cakeDetail__container{
+    padding: 20px;
+    margin: 50px auto 0;
+    background: transparent;
+    box-shadow: 0 0 5px 2px #000000;
+    border-radius: 10px;
+}
+
+.customize__container{
+    padding: 20px;
+    margin: 50px auto 0;
+    background: transparent;
+    border-radius: 10px;
+}
+
+.customize__filter{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.customize__select{
+    width: 200px;
+    height: 30px;
+    font-size: 20px;
+    border: none;
+}
+
+.customize__create{
+    height: 30px;
+    padding: 5px 20px;
+    min-width: 25px;
+    margin: 0 auto;
+    display: block;
+    border-radius: 10px;
+    border: none;
+    background: #ffffff;
+    color: #000000;
+    font-size: 20px;
+    font-family: "Lucida Console", serif;
+    transition: 0.2s ease-in-out;
+}
+
+.customize__create:hover{
+    cursor: pointer;
+    background: #ee2d2d;
+    color: #f6ff00;
+}
