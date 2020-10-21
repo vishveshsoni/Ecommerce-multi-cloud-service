@@ -1,2 +1,2 @@
-# Cake Bakery
+# Multi cloud intercommunicating server for Ecommerce application.
 
