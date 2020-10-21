@@ -1,3 +1,3 @@
 # Multi cloud intercommunicating server for Ecommerce application.
 
-![Alt text](/Capture.png)
+![Alt text](Capture.png)
